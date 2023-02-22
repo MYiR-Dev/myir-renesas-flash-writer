@@ -91,6 +91,27 @@ DDR_TYPE = DDR3L
 DDR_SIZE = 512MB_1PCS
 SWIZZLE  = T3BCUL
 DEVICE_TYPE = 1
+
+else ifeq ("$(BOARD)", "RZG2UL_DDR3L_512M_DEV")
+#--------------------------------------
+# RZ/G2UL MYIR DDR3L Dev board
+#--------------------------------------
+FILENAME_ADD = _RZG2UL_DDR3L_512M_DEV
+DEVICE   = RZG2UL
+DDR_TYPE = DDR3L
+DDR_SIZE = 512MB_1PCS
+SWIZZLE  = T3BCUL
+DEVICE_TYPE = 1
+else ifeq ("$(BOARD)", "RZG2UL_DDR3L_256M_DEV")
+#--------------------------------------
+# RZ/G2UL MYIR DDR3L Dev board
+#--------------------------------------
+FILENAME_ADD = _RZG2UL_DDR3L_256M_DEV
+DEVICE   = RZG2UL
+DDR_TYPE = DDR3L
+DDR_SIZE = 256MB_1PCS
+SWIZZLE  = T3BCUL
+DEVICE_TYPE = 1
 else ifeq ("$(BOARD)", "RZG2UL_SMARC")
 #--------------------------------------
 # RZ/G2UL Smarc board
